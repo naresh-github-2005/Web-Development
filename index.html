@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediTrack - Your Medication Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(image6.jpg);
+            background-size: cover;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px 0;
+        }
+        #head{
+            font-size: 50px;
+        }
+        #mess{
+            font-size: 30px;
+        }
+    </style>
+    <script>
+
+        window.onload = function () {
+            setTimeout(() => {
+                window.location.href = "login.php";
+            }, 2000);
+        };
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="loading">
+            <h1 id="head">MediTrack</h1>
+            <p id="mess">Redirecting to login...</p>
+        </div>
+    </div>
+</body>
+
+</html>
