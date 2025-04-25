@@ -11,9 +11,9 @@ if(isset($_POST['loginBtn'])){
    
     $servername = "localhost";
     $user = "root";
-    $password = "Password";
+    $password = "";
 
-    $dbname = "MYDATABASE";
+    $dbname = "";
     $con = mysqli_connect($servername,$user,$password,$dbname);
 
    if (!$con) {
@@ -66,9 +66,9 @@ if(isset($_POST['signupBtn'])){
    
     $servername = "localhost";
     $user = "root";
-    $password = "Password";
+    $password = "";
 
-    $dbname = "MYDATABASE";
+    $dbname = "";
     $con = mysqli_connect($servername,$user,$password,$dbname);
 
    if (!$con) {
