@@ -14,9 +14,9 @@
     
     $servername = "localhost";
     $user = "root";
-    $password = "Password";
-    $dbname = "MYDATABASE";
-    $con = mysqli_connect($servername, $user, $password, $dbname);
+    $  = " ";
+    $dbname = "";
+    $con = mysqli_connect($servername, $user, $ , $dbname);
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -26,9 +26,9 @@
     
         $servername = "localhost";
         $user = "root";
-        $password = "Password";
-        $dbname = "MYDATABASE";
-        $con = mysqli_connect($servername, $user, $password, $dbname);
+        $  = " ";
+        $dbname = "";
+        $con = mysqli_connect($servername, $user, $ , $dbname);
         if (!$con) {
             die("Connection failed: " . mysqli_connect_error());
         }
@@ -65,9 +65,9 @@
         
         $servername = "localhost";
         $user = "root";
-        $password = "Password";
-        $dbname = "MYDATABASE";
-        $con = mysqli_connect($servername, $user, $password, $dbname);
+        $  = " ";
+        $dbname = "";
+        $con = mysqli_connect($servername, $user, $ , $dbname);
         if (!$con) {
             die("Connection failed: " . mysqli_connect_error());
         }
@@ -106,9 +106,9 @@
         
         $servername = "localhost";
         $user = "root";
-        $password = "Password";
-        $dbname = "MYDATABASE";
-        $con = mysqli_connect($servername, $user, $password, $dbname);
+        $  = " ";
+        $dbname = "";
+        $con = mysqli_connect($servername, $user, $ , $dbname);
         if (!$con) {
             die("Connection failed: " . mysqli_connect_error());
         }
@@ -124,9 +124,9 @@
         $medicine = $_POST['medicine'];
         $servername = "localhost";
     $user = "root";
-    $password = "Password";
-    $dbname = "MYDATABASE";
-    $con = mysqli_connect($servername, $user, $password, $dbname);
+    $  = " ";
+    $dbname = "";
+    $con = mysqli_connect($servername, $user, $ , $dbname);
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -299,9 +299,9 @@
                         <?php
                             $servername = "localhost";
                             $user = "root";
-                            $password = "Password";
-                            $dbname = "MYDATABASE";
-                            $con = mysqli_connect($servername,$user,$password,$dbname);                
+                            $  = " ";
+                            $dbname = "";
+                            $con = mysqli_connect($servername,$user,$ ,$dbname);                
                             if (!$con) {
                                 die("Connection failed: " . mysqli_connect_error());
                             }
