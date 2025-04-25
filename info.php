@@ -4,8 +4,8 @@ use Twilio\Rest\Client;
 
 $servername = "localhost";
 $user = "root";
-$password = "Password";
-$dbname = "MYDATABASE";
+$password = "";
+$dbname = ""; 
 $con = mysqli_connect($servername,$user,$password,$dbname);                
 if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
@@ -37,9 +37,9 @@ else{
                         require __DIR__ . '/vendor/autoload.php'; // Autoload files via Composer
                         
                         // Twilio credentials from your dashboard
-                        $sid = 'AC42f61728e78729b6e58e2ca429112df1';
-                        $token = '63706372d5396ae227830c34b34de8b5';
-                        $twilio_number = '+19786449125'; 
+                        $sid = '';
+                        $token = '';
+                        $twilio_number = ''; 
             
                         // Your verified mobile number
                         $to = "+91$phone"; 
